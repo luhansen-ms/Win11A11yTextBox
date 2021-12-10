@@ -14,7 +14,7 @@
         </Grid.RowDefinitions>
         
         <Label Grid.Row="0">In Win11 Narrator, this text box is broken:</Label>
-        <TextBox Grid.Row="1"></TextBox>
+        <TextBox Grid.Row="1" AutomationProperties.Name="broken text box"></TextBox>
         <Button Grid.Row="2">Button</Button>
     </Grid>
 </Window>
